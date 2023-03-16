@@ -1,0 +1,64 @@
+
+body{
+    padding: 0px;
+    background-color: #e1f2f7;
+}
+.head_box{
+    padding: 80px 0;
+    width: 33.333%;
+    /* border: 2px solid red; */
+    background-color: cadetblue;
+    text-align: center;  
+}
+.head_wrapper{
+    display: flex;
+}
+/* My Photos */
+.extend{
+    margin-left: 33.333%;
+    background-color: rgb(57, 57, 184);
+}
+.extend:hover{
+    background-color: #323232;
+}
+
+/*My Bio */
+.box1{
+    background-color:rgb(190, 189, 189);
+}
+.box1:hover{
+    background-color: brown;
+}
+/* My Education */
+.education{
+    display: block;
+    padding: 115px 0;
+    width: 33.333%;
+    background-color: rgb(143, 152, 168);
+    text-align: center;
+    margin: 0 auto 0 auto;
+}
+.education:hover{
+    background-color: chocolate;
+}
+/* My Hobbies */
+.bottom_wrapper{
+    display: flex;
+}
+.bottom_box:hover{
+    background-color: #0A1828;
+}
+.bottom_box{
+    padding: 130px 0;
+    width: 33.333%;
+    /* border: 2px solid red; */
+    background-color: rgb(146, 163, 238);
+    text-align: center;  
+}
+.extend_bottom{
+    margin-left: 33.333%;
+    background-color: rgb(235, 182, 139);
+}
+.extend_bottom:hover{
+    background-color: #957C3D;
+}

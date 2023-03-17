@@ -1,41 +1,50 @@
 
 body{
-    padding: 0px;
     background-color: #e1f2f7;
 }
+div{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: black;
+}
 a{
-    display: flex;
+    text-decoration: none;"
 }
-.head_box{
-    padding: 80px 0;
+.imageDiv{
+    height:500px;
+}
+#images{
+    height: 300px;
+    border-radius: 20px 0 20px 0;
+}
+/*My Bio*/
+.b1{
+    padding: 60px 0;
+    text-align: center;
+    display: block;
+    float: left;
     width: 33.333%;
-    /* border: 2px solid red; */
-    background-color: cadetblue;
-    text-align: center;  
+    background-color: rgb(184, 188, 189);
 }
-.head_wrapper{
-    display: flex;
+.b1:hover{
+    background-color: rgb(78, 173, 153);
 }
-/* My Photos */
-.extend{
-    margin-left: 33.333%;
-    background-color: rgb(57, 57, 184);
+/*Photos*/
+.b2{
+    padding: 60px 0;
+    text-align: center;
+    display: block;
+    background-color: rgb(74, 96, 219);
+    width: 33.333%;
+    margin-left: auto;
 }
-.extend:hover{
-    background-color: #323232;
-}
-
-/*My Bio */
-.box1{
-    background-color:rgb(190, 189, 189);
-}
-.box1:hover{
-    background-color: brown;
+.b2:hover{
+    background-color: rgb(192, 39, 98);
 }
 /* My Education */
 .education{
     display: block;
-    padding: 115px 0;
+    padding: 80px 0;
     width: 33.333%;
     background-color: rgb(143, 152, 168);
     text-align: center;
@@ -44,24 +53,26 @@ a{
 .education:hover{
     background-color: chocolate;
 }
-/* My Hobbies */
-.bottom_wrapper{
-    display: flex;
-}
-.bottom_box:hover{
-    background-color: #0A1828;
-}
-.bottom_box{
-    padding: 130px 0;
+.b3{
+    padding: 105px 0;
+    text-align: center;
+    display: block;
+    float: left;
     width: 33.333%;
-    /* border: 2px solid red; */
-    background-color: rgb(146, 163, 238);
-    text-align: center;  
+    background-color: rgb(240, 41, 41);
 }
-.extend_bottom{
-    margin-left: 33.333%;
-    background-color: rgb(235, 182, 139);
+.b3:hover{
+    background-color: chocolate;
 }
-.extend_bottom:hover{
-    background-color: #957C3D;
+
+.b4{
+    padding: 105px 0;
+    text-align: center;
+    display: block;
+    background-color: orange;
+    width: 33.333%;
+    margin-left: auto;
+}
+.b4:hover{
+    background-color: rgb(59, 233, 43);
 }

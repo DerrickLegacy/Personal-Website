@@ -2,6 +2,9 @@
 body{
     background-color: #e1f2f7;
 }
+.welcome{
+    border-bottom: 2px solid black;
+}
 div{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;

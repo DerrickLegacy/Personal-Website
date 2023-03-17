@@ -3,6 +3,9 @@ body{
     padding: 0px;
     background-color: #e1f2f7;
 }
+a{
+    display: flex;
+}
 .head_box{
     padding: 80px 0;
     width: 33.333%;
